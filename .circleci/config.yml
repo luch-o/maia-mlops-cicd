@@ -30,7 +30,6 @@ jobs:
           command: |
             cd bankchurn-api
             railway up --service=alert-heart
-            railway up --detach
 
 
 tags_only: &tags_only
