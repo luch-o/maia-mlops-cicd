@@ -28,7 +28,7 @@ jobs:
       - run:
           name: Deploy to Railway App
           command: |
-            cd bankchurn-api 
+            cd bankchurn-api
             railway up --service=alert-heart
             railway up --detach
 
